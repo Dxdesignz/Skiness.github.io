@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --red:#e2201c;
+    --lightgrey:#f6f6f6;
+    --black:#222222; 
+    --white:#ffffff;
+    --para:#4b4b4b;
+    --yellow:#ffcc00;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none; border: none;
+}
+
+body{
+    width: 100%;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 0px;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+/*heading section*/
+
+.heading{
+    background-color: var(--red);
+}
+.heading .container{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading .container .icon{
+    background-color: transparent;
+}
+.heading .container .icon i{
+    padding: 16px 16px;
+    border: 2px solid var(--white);
+    font-size: 16px;
+    color: var(--white);
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.heading .container .icon i:hover{
+    background-color: var(--white);
+    color: var(--red);
+}
+.heading .container .right-language{
+    display: flex;
+    align-items: center;
+}
+.heading .container .right-language a{
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 600;
+}
+.heading .container .right-language .eng{
+    margin-right: 10px;
+}
+.heading .container .right-language i{
+    font-size: 16px;
+    color: var(--white);
+}
+
+/*heading section*/
+
+/*header section*/
+
+.header{
+    background-color: var(--white);
+    border-bottom: 2px solid var(--lightgrey);
+}
+.header .header-container{
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header-container #menu{
+    display: none;
+    padding: 20px 20px;
+    border-radius: 5px;
+    border: 2px solid var(--black);
+    font-size: 16px;
+}
+.header .header-container .search-bar{
+    border: 2px solid var(--lightgrey);
+    width: 700px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.header .header-container .search-bar input{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: 500;
+    color: var(--black);
+}
+.header .header-container .search-bar label{
+    background-color: var(--red);
+   padding: 30px 30px;
+    font-size: 20px;
+    border-radius: 0px 5px 5px 0px;
+    color: var(--white);
+}
+.header .header-container .right-icon i{
+    font-size: 20px;
+    color: var(--black);
+    padding-left: 20px;
+}
+.header .header-container .right-icon #search-icon{
+    font-size: 20px;
+    color: var(--black);
+    padding-left: 20px;
+    display: none;
+}
+.header .header-container .right-icon i:hover{
+    color: var(--red);
+}
+
+/*header section*/
+
+/*navbar section*/
+
+.navbar{
+    background-color: transparent;
+    text-align: center;
+}
+.navbar nav ul li{
+    display: inline-block;
+    align-items: center;
+    padding: 0px 50px;
+}
+.navbar nav ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+}
+.navbar nav ul li a:hover{
+    color: var(--red);
+    text-decoration: overline;
+}
+
+/*navbar section*/
+
+/*hero section*/
+.hero{
+    background-color: var(--lightgrey);
+    padding: 0px 150px;
+}
+.hero .slider{
+    background-color: transparent;
+}
+.hero .slider .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero .slider .box .left{
+    background-color: transparent;
+}
+.hero .slider .box .left h1{
+    font-size: 50px;
+    color: var(--black);
+    font-weight: bolder;
+    background-color: transparent;
+    height: 60px;
+}
+.hero .slider .box .left p{
+    font-size: 16px;
+    color: var(--icon);
+    font-weight: 500;
+    width: 455px;
+    height: 50px;
+    background-color: transparent;
+    margin: 20px 0px;
+}
+.hero .slider  .left .hero-button{
+    background-color: transparent;
+    padding: 14px 0px;
+}
+.hero .slider .left .hero-button .hero-btn{
+    padding: 15px 50px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.144);
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+    border: 2px solid var(--red);
+}
+.hero .slider .left .hero-button .hero-btn:hover{
+    background-color: var(--red);
+    color: var(--white);
+}
+
+/*hero section*/
+
+/*Product section*/
+
+.Product{
+    background-color: transparent;
+    margin-top: 50px;
+}
+.Product .all-prodcut-container{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;    
+}
+.Product .all-prodcut-container .product-box{
+    background-color: transparent;
+    width: 344px;
+    height: 630px;
+}
+.Product .all-prodcut-container .product-box .product-image{
+    background-color: var(--lightgrey);
+    width: 344px;
+    height: 430px;
+    text-align: center;
+    border-radius: 10px;
+}
+.Product .all-prodcut-container .product-box .product-image img{
+    width: 95%;
+    height: 95%;
+}
+.Product .all-prodcut-container .product-box .product-text{
+    width: 344px;
+    height: 200px;
+    background-color: transparent;
+}
+.Product .all-prodcut-container .product-box .product-text .product-star{
+    background-color: transparent;
+    text-align: center;
+    padding-top: 10px;
+}
+.Product .all-prodcut-container .product-box .product-text .product-star i{
+    font-size: 25px;
+    color: var(--yellow);
+    padding: 0px 3px;
+}
+.Product .all-prodcut-container .product-box .product-text .price{
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.Product .all-prodcut-container .product-box .product-text .price h2{
+    font-size: 25px;
+    color: var(--black);
+    font-weight: bold;
+    line-height: 30px;
+}
+.Product .all-prodcut-container .product-box .product-text .price h3{
+    font-size: 30px;
+    color: var(--para);
+    font-weight: bold;
+}
+.Product .all-prodcut-container .product-box .product-text .product-button{
+    text-align: center;
+    padding: 16px 0px;
+    background-color: transparent;
+    margin-top: 15px;
+}
+.Product .all-prodcut-container .product-box .product-text .product-btn{
+    font-size: 20px;
+    color: var(--black);
+    background-color: var(--white);
+    border: 2px solid var(--red);
+    font-weight: 600;
+    padding: 16px 100px;
+    border-radius: 100px;
+}
+.Product .all-prodcut-container .product-box .product-text .product-btn:hover{
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.Product .button{
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 50px;
+}
+.Product .button .btn{
+    padding: 15px 50px;
+    background-color: var(--white);
+    border: 2px solid var(--red);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.212);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black);
+    border-radius: 50px;
+}
+.Product .button .btn:hover{
+    background-color: var(--red);
+    color: var(--white);
+}
+/*Product section*/
+
+/*footer section*/
+
+.footer{
+    background-color: var(--lightgrey);
+    margin-top: 50px;
+}
+.footer .footer-container{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-container .footer-box{
+    background-color: transparent;
+}
+.footer .footer-container .footer-box h2{
+    font-size: 30px;
+    color: var(--black);
+    font-weight: bold;
+}
+.footer .footer-container .footer-box a{
+    display: block;
+    font-size: 18px;
+    color: var(--para);
+    line-height: 40px;
+    font-weight: 500;
+}
+.footer .footer-container .footer-box i{
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.footer .footer-container .footer-box a:hover{
+    color: var(--red);
+}
+.footer .footer-container .footer-box i:hover{
+    color: var(--red);
+}
+.footer .last{
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer .last a{
+    font-size: 13px;
+    color: var(--black);
+    font-weight: 500;
+}
+.footer .last img{
+    width: 10%;
+}
+
+/*footer section*/
+
+@media screen and (max-width: 1340px) {
+    section {
+      padding: 2rem 50px;
+      background-color: #ffcc00;
+    }
+  }
+
+@media screen and (max-width: 1132px) {
+    .footer .footer-container{
+        display: block;
+        text-align: center;
+    }
+    .header .header-container .search-bar{
+        display: none;
+    }
+    .header .header-container #menu{
+        display: initial;
+    }
+    .navbar{
+        display: none;
+    }
+    .header .header-container .right-icon #search-icon{
+        display: initial;
+    }
+    .hero{
+        padding: 2rem 50px;
+    }
+    .hero .slider .box{
+        display: block;
+        text-align: center;
+    }
+    .hero .slider .box .left p{
+            display: none;
+        }
+    .hero .slider  .left .hero-button{
+            background-color: transparent;
+            padding: 14px 0px;
+            margin-top: 20px;
+        }
+    }
+@media screen and (max-width:822px) {
+    .hero{
+        padding: 2rem 30px;
+    }
+    .hero .box .right{
+        width: 90%;
+        height: 90%;
+    }
+    .hero .box .right img{
+        width: 90%;
+        height: 90%;
+    }
+}
+@media screen and (max-width:622px) {
+    .footer .last #term{
+        display: none;
+    }
+    .footer .last img{
+        display: none;
+    }
+    .footer .last a{
+        text-align: center;
+    }
+}
